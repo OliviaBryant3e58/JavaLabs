@@ -30,15 +30,15 @@ public class BdayFind {
         day = inSS.next();
         year = inSS.next();
         
-        //Check year
+        //Create a BirthDay object
         
         if (year.length() == 2) {
             
             year = 19 + year;
             
         }
-
-        //Create a birthday object
+        
+        //System.out.println(month + " " + day + " " + year);
         
         Birthday BirthDay = new Birthday(day, month, year);
         
