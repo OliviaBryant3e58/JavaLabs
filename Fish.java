@@ -2,14 +2,14 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.lang.String;
 
-public class Dog extends Animal {
+public class Fish extends Animal {
 
-    private String dogName;
+    private String fishName;
     private String verb;
-    private String dogFood;
+    private String fishFood;
 
     public void setName(String name) {
-        dogName = name;
+        fishName = name;
     }
 
     public void setVerb(String verbName) {
@@ -17,11 +17,11 @@ public class Dog extends Animal {
     }
 
     public void setFood(String food) {
-        dogFood = food;
+        fishFood = food;
     }
 
     public String getName() {
-        return dogName;
+        return fishName;
     }
 
     public String getVerb() {
@@ -29,17 +29,17 @@ public class Dog extends Animal {
     }
 
     public String getFood() {
-        return dogFood;
+        return fishFood;
     }
 
     @Override
 
     public String name() {
-        return dogName;
+        return fishName;
     }
 
     public String favourite() {
-        return dogFood;
+        return fishFood;
     }
 
 }
